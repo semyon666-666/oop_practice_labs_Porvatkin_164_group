@@ -1,14 +1,14 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(2zadacha LANGUAGES CXX)
+project(practika1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(2zadacha main.cpp)
+add_executable(practika1 main.cpp)
 
 include(GNUInstallDirs)
-install(TARGETS 2zadacha
+install(TARGETS practika1
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
